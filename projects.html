@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Projects - Atharva Mahajan</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 16px;
+            line-height: 1.6;
+            color: #222;
+            max-width: 750px;
+            margin: 50px auto;
+            padding: 0 20px;
+        }
+        a {
+            color: #0055A0;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        h1 {
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+       h2 {
+            font-size: 20px; 
+            font-weight: 450;
+            margin-top: 30px;
+            margin-bottom: 10px;
+            text-transform: uppercase; 
+        }
+        .nav {
+            margin-bottom: 30px;
+            font-size: 15px;
+        }
+        .nav a {
+            margin-left: 15px;
+        }
+        .nav a.first {
+            margin-left: 0;
+        }
+        .project-block {
+            margin-bottom: 25px;
+        }
+        .project-title {
+			font-size: 17px;
+            font-weight: 430;
+        }
+        .tech-list {
+            color: #555;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Atharva Mahajan</h1>
+    <div class="nav">
+        <a href="index.html" class="first">about</a>
+        <a href="projects.html" style="color: #222; text-decoration: none;">projects</a>
+        <a href="resume.pdf" target="_blank">résumé</a>
+    </div>
+
+    <h2>projects</h2>
+
+    <div class="project-block">
+        <span class="project-title">Redis</span> <br>
+        <span class="tech-list">C (Native), C++ (only for minor inconveniences)</span> <br>
+        Redis a.k.a "Remote Dictonary Server" is a simpler implementation of a cache server.
+        The data is stored in key-value format in the memory i.e. RAM itself. 
+        The distinguishing characteristics of Redis are high concurrency, automatic expiration and low latency.<br>
+        <a href="https://github.com/at-mah/Redis" target="_blank">code</a> &nbsp;&nbsp;
+        <a href="https://beej.us/guide/bgnet/html/split/" target="_blank">network-programming</a> &nbsp;&nbsp;
+        <a href="https://build-your-own.org/redis/" target="_blank">book</a> &nbsp;&nbsp;
+    </div>
+
+    <div class="project-block">
+        <span class="project-title">RISC-V Benchmarking Framework (Ongoing)</span> <br>
+        <span class="tech-list">C/C++, Python, RISC-V GNU Toolchain, Spike/gem5</span> <br>
+        I am currently working on a simulation-based benchmarking framework to evaluate custom RISC-V ISA extensions for accelerating transformer computational kernels on edge devices. 
+        The proposed modified RISC-V simulators will compare baseline execution against proposed custom instructions. The goal is to optimise dynamic instruction count and execution cycles. <br>
+        <a href="basepaper.pdf" target="_blank">base-paper</a> &nbsp;&nbsp;
+        <a href="https://drive.google.com/file/d/1VK8KqkaQ4-8wTeJsSghXMMCUPnhv7HQ3/view?usp=sharing" target="_blank">book</a> &nbsp;&nbsp;
+        <a href="https://youtube.com/playlist?list=PLbtzT1TYeoMiKup6aoQc3V_d7OvOKc3P5&si=koNKPpu4faAAQwa_" target="_blank">riscv-assembly-playlist</a> &nbsp;&nbsp;
+        <a href="https://youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&si=zZG9-TsvQtcUCIAA" target="_blank">3b1b-neural-n/w-playlist</a> &nbsp;&nbsp;
+        <a href="https://discord.gg/5gFtTXTUJ" target="_blank">discord</a> &nbsp;&nbsp;
+
+
+    </div>
+
+    <div class="project-block">
+        <span class="project-title">Homefix Bayern Website</span> <br>
+        <span class="tech-list">Wordpress, Hostinger</span> <br>
+        I made this website for a friend of mine who runs a handyman agency in Germany.
+        Notable features are custom user inquiry (WPforms), dual language support (English & Deutsch) and display of google reviews directly on the website. <br>
+        <a href="https://homefixbayern.de/" target="_blank">visit</a>
+    </div>
+
+    <div class="project-block">
+        <span class="project-title">Visual Explainer for LMVT</span> <br>
+        <span class="tech-list">Python (Native), MANIM</span> <br>
+        This project was made in my first year of engineering. MANIM (Mathematical Animations) is a python library created by 
+        <a href="https://www.3blue1brown.com/" target="_blank">Grant Sanderson</a>.  
+        I made a short explainer for Lagrange's Mean Value Theorem, and uploaded it to YouTube. <br>
+        <a href="https://www.youtube.com/watch?v=_2DskJc_2oo" target="_blank">watch</a>
+    </div>
+
+</body>
+</html>
